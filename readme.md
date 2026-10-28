@@ -128,41 +128,6 @@ python3 organize_samples.py --group-by-key
 | `--write-index` | `-i` | `False` | Save an optional `library_index.json` metadata search index |
 | `--verbose` | `-v` | `False` | Print detailed source and destination paths for every sample |
 
----
-
-## 💬 Ready-to-use Reddit Post Template
-
-If you are sharing this on Reddit (e.g. r/edmproduction, r/trapproduction, r/FL_Studio, r/Ableton), feel free to use this template:
-
-```markdown
-**Title:** I built an open-source Python tool to organize the messy Splice sample folder into a clean, DAW-ready tree (Keys, BPM, Pads, Vocals, 808s, etc.)
-
-Hey everyone,
-
-Like many producers, I got tired of Splice's default folder hierarchy. When you download hundreds of samples, Splice dumps them into deeply nested pack folders (`Origin_Sound_.../one_shots/drum_hits/hihats/...`), making it super frustrating to browse through your DAW's sidebar.
-
-I wrote **`sampy`** — a zero-dependency Python script that scans your Splice library and organizes everything into a clean, intuitive tree:
-
-- **Pads** (Loops, One-Shots, Atmospheres)
-- **Melodies** (Songstarters, Stacks, Loops, Chords)
-- **Vocals** (Spoken Word, Hooks, Adlibs, Choirs)
-- **Drums** (Kicks, Snares, Claps, Closed/Open Hats, Drum Loops)
-- **Bass** (808s, Synth Bass, Electric Bass)
-- **Keys, Guitars, Strings, Brass, Synths & FX**
-
-### Key Features:
-- **Zero dependencies** (pure Python 3 standard library, no pip install needed)
-- **Key & BPM extraction** (can even group melodic folders into Key subfolders with `--group-by-key`)
-- **Safe & Space-Saving**: Has `--mode symlink` so it takes 0 MB extra disk space and takes 2 seconds to link your whole library, without breaking the Splice desktop app.
-- **Collision Protection**: Never overwrites files with generic names like `Kick_01.wav`.
-- **Dry-run mode**: Preview everything before touching a single file.
-
-GitHub link: [Your Repository Link Here]
-
-Hope this helps speed up your workflow! Let me know if you have ideas or suggestions.
-```
-
----
 
 ## 📄 License
 
